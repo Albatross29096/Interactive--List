@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #afc1d4; /* Background color for the body */
+}
+
+.list-container {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: azure; /* Background color for list containers */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+    transition: transform 0.3s ease-in-out; /* Transition for hover effect */
+}
+
+.list-container:hover {
+    transform: translateY(-5px); /* Move the container up slightly on hover */
+}
+
+.list-container h2 {
+    font-size: 1.5rem; /* Adjust heading font size */
+    color: #c75c5c; /* Heading text color */
+}
+
+.list-container ul
+/* .list-container ul  */
+{
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.list-container ul li
+/* .list-container ul li  */
+{
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 1.2rem; /* Font size for list items */
+    color: #666666; /* List item text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: color 0.3s ease; /* Transition for text color change */
+}
+
+.list-container ul li:hover
+/* .list-container ul li:hover  */
+{
+    color: #c0cc1c; /* Darken text color on hover */
+}
+
